@@ -22,7 +22,7 @@ const Rosco = () => {
       };
 
   return (
-    <div className="relative w-[40px] h-[230px] mx-auto mt-8">
+    <div className="relative z-10 w-[40px] h-[230px] mx-auto mt-8">
       {letters.map((letter, index) => {
         const angle = (index / letters.length) * 360 + 270;
         return (
