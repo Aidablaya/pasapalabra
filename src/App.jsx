@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-blue-400 text-white relative">
-      <h1 className="text-4xl font-bold mb-36">Pasalamarta</h1>
+      <h1 className="text-4xl font-bold mb-36">Pasalacabra</h1>
       
       <Rosco />
       <Timer initialMinutes={10} onTimeUp={handleTimeUp} onTimeChange={handleTimeChange}/>
