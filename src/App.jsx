@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import Rosco from './components/Rosco';
 import Timer from './components/Timer';
-import Images from './components/Images';
+
 
 function App() {
   const [time, setTime] = useState(0); // Inicia en 0
@@ -21,7 +21,7 @@ function App() {
       
       <Rosco />
       <Timer initialMinutes={10} onTimeUp={handleTimeUp} onTimeChange={handleTimeChange}/>
-      <Images time={time} />
+      
     </div>
   );
 }
